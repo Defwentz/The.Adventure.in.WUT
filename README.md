@@ -1,5 +1,7 @@
-# The.Adventure.of.WHUT
-an interactive text adventure game in C, made it when still learning how to program, big changes coming up
+# The Adventure in WUT
+no longer updating
+
+an interactive text adventure game in C, made it when still learning how to program
 
 这是一款交互式英文文字冒险类游戏。
 大致的操作指令有move移动,look观察环境,pick拾取,put放下,save存档,restore读档,inventory检查自己身上的物品。
@@ -29,30 +31,3 @@ pick up the book(捡起那本书)
 	*1*		//1------Dorm Room 531
 	*b*		//b------bathroom
 	***
-
-..4 	Bigger map.
-
-..3 	Whole new object system.And some simplification of the code.
-
-..2 	New functions:Examine,Talk
-	First NPC:wise-looking old man
-	And what's more?He tells story.And after the accidental death of him,you can pick up his body and just start walking around.
-	And slight Semantic Analyser BUGs fixed.(Maybe a chance causing more bugs.):I change some while loop into do...while loop.
-
-..1 	The save&restore function is perfected.
-	Now it's can identify whether the file is a formal game saving file.Though not entirely.
-	The Input Process part was perfected.
-	Now the code is a little bit more neat.
-	The title is added.
-	Now "PRESS ANY KEY TO CONTINUE" can twinkles.
-	One more geometry.
-	The Alarm incident was added.
-	New action function examine.
-	book:It's a book of some sort.
-	phone:It's a regular phone.
-
-..0 	This version now have a functional save&restore function.
-	And when situation as follow:
-	move
-	To which dircetion?
-	It's use the same function as the orignal one.
